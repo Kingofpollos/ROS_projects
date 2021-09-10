@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+ <!-- The drive_bot node -->
+  <node name="pick_object" type="pick_object" pkg="pick_objects" output="screen">
+  </node>
+
+  <node name="basic_shapes" type="basic_shapes" pkg="add_markers" output="screen">
+  </node>
+
+</launch>
